@@ -15,7 +15,7 @@ public class GUI implements ActionListener {
 
         // the panel with the button and text
         JPanel panel = new JPanel();
-        panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
+        panel.setBorder(BorderFactory.createEmptyBorder(50, 50, 30, 50));
         panel.setLayout(new GridLayout(0, 1));
         panel.add(button);
         panel.add(label);
@@ -23,7 +23,7 @@ public class GUI implements ActionListener {
         // set up the frame and display it
         frame.add(panel, BorderLayout.CENTER);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setTitle("GUI");
+        frame.setTitle("Cookie Clicker v1");
         frame.pack();
         frame.setVisible(true);
     }
@@ -31,7 +31,7 @@ public class GUI implements ActionListener {
     // process the button clicks
     public void actionPerformed(ActionEvent e) {
         clicks++;
-        label.setText("Number of Cookies:  " + clicks);
+        label.setText("+1 cookies:  " + clicks );
     }
 
     // create one Frame

@@ -7,7 +7,7 @@ public class randomnamegen {
     public static void main(String[] args) {
 
 
-       String malefirstname[] = {"Kamari" , "Lorenzo" , "Leo" , "Kale" , "Cory" , "Izayah" , "Jaiden" , 
+       String firstname[] = {"Kamari" , "Lorenzo" , "Leo" , "Kale" , "Cory" , "Izayah" , "Jaiden" , 
        "Ezekiel" , "Eduardo" , "Rylee" , "Timothy" , "Jaron" , "Vicente" , "Emmanuel" , 
        "Zack" , "Saul" , "Nicholas" , "Johnathan" , "Conrad" , "River" , "River" , "Nick" , "Rishi" , "Zaire" , "Zayne" , "Mauricio" , "Oswaldo" , "Efrain" , "Hezekiah" , "Aaron" ,
        "Jayvion" , "Alfredo" , "Bryson" , "Reginald" , "Kieran" , 
@@ -30,7 +30,7 @@ public class randomnamegen {
 };
        
        
-        System.out.println( malefirstname[new Random().nextInt(malefirstname.length)]);
+        System.out.println( firstname[new Random().nextInt(firstname.length)]);
         System.out.println( lastname[new Random().nextInt(lastname.length)]);
     
     }
